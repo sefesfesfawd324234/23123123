@@ -1,0 +1,51 @@
+{
+  "TG_API_ID": 0,
+  "TG_API_HASH": "your_real_api_hash_here",
+  "TG_PHONE": "+380000000000",
+  "TG_CHANNEL_ID": 0,
+  "COMMENT_GROUP_ID": 0,
+  "WC_URL": "https://your-shop.example",
+  "WC_KEY": "ck_your_consumer_key_here",
+  "WC_SECRET": "cs_your_consumer_secret_here",
+  "CLOUDINARY_CLOUD_NAME": "your_cloud_name",
+  "CLOUDINARY_API_KEY": "your_cloudinary_key",
+  "CLOUDINARY_API_SECRET": "your_cloudinary_secret",
+  "MAX_PHOTOS": 9,
+  "MAX_PHOTO_SIZE_MB": 10,
+  "ALLOWED_EXTENSIONS": [
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".gif",
+    ".webp"
+  ],
+  "PAUSE_BETWEEN_PRODUCTS": 2,
+  "PAUSE_BETWEEN_PHOTOS": 2,
+  "UPDATE_STRATEGY": "all",
+  "UPDATE_WHAT": "both",
+  "UPDATE_DESCRIPTION": true,
+  "UPDATE_PHOTOS": true,
+  "MIN_PHOTOS_TO_SKIP": 9,
+  "PHOTO_SKIP_STRATEGIES": [
+    "only_new"
+  ],
+  "UPDATED_FILE": "updated_products.json",
+  "PHOTO_SOURCE_MODE": "manual",
+  "PHOTO_SOURCE_FORCED": "comments",
+  "PHOTO_SOURCE_PRIORITY": "comments,main",
+  "DESCRIPTION_SOURCE_PRIORITY": "main,comments",
+  "STOP_WORDS": [
+    "дроп",
+    "опт",
+    "fedas",
+    "менеджер",
+    "додаткові",
+    "наявність",
+    "https"
+  ],
+  "SKU_PREFER_SITE_FIELD": true,
+  "SKU_TAKE_FIRST_N": 6,
+  "VERBOSE_LOG": true,
+  "OPERATION_MODE": "manual",
+  "ADDITIONAL_POSTS_POSITION": "before"
+}
