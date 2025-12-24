@@ -5,4 +5,4 @@ cloudinary==1.30.0
 woocommerce==3.0.0
 py2app==0.28
 pytest==7.4.0
-pyobjc==8.5
+
