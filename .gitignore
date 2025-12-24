@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info
+*.egg
+
+# py2app / bundling artifacts
+*.app
+*.dmg
+*.zip
+
+# локальные данные и сессии — НЕ КОММИТИТЬ
+downloads/
+*.session
+tg_session.session
+user_session.session
+updated_products.json
+settings.json
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
